@@ -1,0 +1,86 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+@import url('https://fonts.cdnfonts.com/css/moneywise');
+
+                
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    min-width: 400px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-image: radial-gradient(circle,#5c5555,#000000);*/
+}
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/money-heist.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    filter: blur(3px);
+
+}
+#hamburger-btn {
+    background-color: #ff0404;
+    color: #fff;
+}
+#brand{
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: red;
+    font-family: 'moneywise' !important;
+    
+}
+#title{
+    color: #ff0404;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    font-size: 3em;
+    font-family: 'moneywise' !important;
+}
+#story-container{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins',sans-serif !important;
+}
+
+#scene{
+    color: #fff;
+    line-height: 2rem;
+}
+#choices button{
+    margin: 10px 10px;
+    height: auto;
+    padding: 10px;
+    min-width: 240px;
+    max-width: max-content;
+    background-color: #ff0404;
+    color: white;
+    border: 1px solid #ff0404;
+    border-radius: 15px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+#choices button:hover{  
+    background-color: transparent;
+    color: #ff0404;
+    border: 1px solid #ff0404;
+    font-weight: 800;
+}
