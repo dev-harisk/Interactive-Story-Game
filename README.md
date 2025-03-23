@@ -31,7 +31,7 @@ cd Interactive-Story-Game
 ## 🖼️ Screenshots
 
 ### 📌 Home Page
-![Main Menu](snapshots/Snap -1.png)
+![Main Menu](https://github.com/dev-harisk/Interactive-Story-Game/blob/main/snapshots/Snap%20-1.png)
 
 ### 📌 Desktop View
 ![Decision Point](snapshots/Snap -2.png)
